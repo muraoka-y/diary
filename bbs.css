@@ -1,0 +1,76 @@
+body {
+   background-image: url('blue.jpeg'); 
+   background-image: url('blue.jpeg') repeat-y;
+   
+}
+
+h1{
+   color: blue;
+}
+
+/*入力フォーム*/
+#header{
+   background-color: blue; 
+}
+
+#main{
+   background: -webkit-linear-gradient(top, #231dde, #2dc5e0);
+}
+.form {
+   padding: 40px;
+   margin:40px;
+}
+
+/*ボタン*/
+.button {
+   
+   border-top: 1px solid #3225e6;
+   background: #2dc5e0;
+   background: -webkit-gradient(linear, left top, left bottom, from(#231dde), to(#2dc5e0));
+   background: -webkit-linear-gradient(top, #231dde, #2dc5e0);
+   background: -moz-linear-gradient(top, #231dde, #2dc5e0);
+   background: -ms-linear-gradient(top, #231dde, #2dc5e0);
+   background: -o-linear-gradient(top, #231dde, #2dc5e0);padding: 12.5px 25px;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 20px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover 
+{
+   border-top: 1px solid #3225e6;
+   background: #e6e617;
+   background: -webkit-gradient(linear, left top, left bottom, from(#e01d1d), to(#e6e617));
+   background: -webkit-linear-gradient(top, #e01d1d, #e6e617);
+   background: -moz-linear-gradient(top, #e01d1d, #e6e617);
+   background: -ms-linear-gradient(top, #e01d1d, #e6e617);
+   background: -o-linear-gradient(top, #e01d1d, #e6e617);  
+   padding: 12.5px 25px;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   
+   }
+.button:active 
+{
+     border-top: 1px solid #3225e6;
+   background: #dede2f;
+   background: -webkit-gradient(linear, left top, left bottom, from(#1fde26), to(#dede2f));
+   background: -webkit-linear-gradient(top, #1fde26, #dede2f);
+   background: -moz-linear-gradient(top, #1fde26, #dede2f);
+   background: -ms-linear-gradient(top, #1fde26, #dede2f);
+   background: -o-linear-gradient(top, #1fde26, #dede2f);
+   padding: 12.5px 25px;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   
+   }
